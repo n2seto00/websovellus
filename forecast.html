@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 Päivän Ennuste</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="forecast.js"></script>
+</head>
+<body>
+    <header>
+        <h1>5 Päivän Sääennuste</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Etusivu</a></li>
+                <li><a href="forecast.html">Ennuste</a></li>
+                <li><a href="favorites.html">Suosikit</a></li>
+                <li><a href="game.html">Peli</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Valitse kaupunki ennusteelle</h2>
+        <input type="text" id="forecastCityInput" placeholder="Syötä kaupungin nimi">
+        <button id="forecastSearchBtn">Hae ennuste</button>
+        <section id="forecastResult"></section>
+    </main>
+</body>
+</html>
+
