@@ -1,5 +1,5 @@
 async function fetchWeather(city) {
-    const API_KEY = "25ed0fd877473ce17661b1ea96c6df5d";
+    const API_KEY = "Kirjoita tähän omasi";
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${API_KEY}&lang=fi`;
 
     try {

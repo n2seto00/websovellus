@@ -1,4 +1,4 @@
-const API_KEY = "25ed0fd877473ce17661b1ea96c6df5d";
+const API_KEY = "Kirjoita tähän omasi";
 
 document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("searchBtn").addEventListener("click", getWeather);
